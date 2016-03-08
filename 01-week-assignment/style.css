@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+
+body {
+  background-image: url("smpier.jpg");
+  background-size: auto;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  color: #000000;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+}
+
+a {
+  color: #000000;
+}
+
+.selfie {
+  border: 5px solid #FFFFFF;
+  border-radius: 20px;
+}
+
+li {
+  margin: 15px 0px 15px 0px;
+}
+
+img {
+  margin: 15px 0px 15px 0px;
+}
