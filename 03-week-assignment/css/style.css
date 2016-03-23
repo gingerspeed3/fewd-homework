@@ -46,10 +46,10 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
+     color: ;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 
@@ -68,13 +68,70 @@ header {
 }
 
 footer {
-
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
 }
 
+.menu {
+  display: inline-block;
+  text-decoration: none;
+  color: #f9e42e;
+  text-align: center;
+  width: auto;
+  color: #f0efef;
+  float: right;
+  margin: 0px 0px 0px 40px;
+}
+
+.menu li {
+  display: inline-block;
+  width: auto;
+  padding: 15px 0px 0px 15px;
+  font-size: 16px;
+}
+
+.blue {
+  background-color: #033048;
+}
+
+.logo {
+  color: #f0efef;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0px 0px 0px 15px;
+  width: 0 auto;
+}
+
+.column {
+  border-bottom: 1px;
+  width: 700px;
+  display: inline-block;
+}
+
+header ul li a {
+  color: #f9e42e;
+}
+
+h1 {
+  display: inline;
+}
+
+.sidebar {
+  float: left;
+  width: 240px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 12px;
+  vertical-align: top;
+}
+
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
