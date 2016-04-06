@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+
+/* Your CSS goes here */
+
+#ball {
+  background-color: purple;
+  width: 800px;
+  height: 800px;
+  border: 1px;
+  border-radius: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 350px 0px 0px 0px;
+}
