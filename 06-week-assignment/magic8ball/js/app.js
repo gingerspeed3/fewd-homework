@@ -1,11 +1,12 @@
+var responses = ["Results Unclear", "Signs Point To Yes", "Ask Again Later", "It Is Certain", "Outlook Good", "Most Likely", "Don't Count On It", "My Sources Say No"]
+
 // This waits till the page finishes loading before running the code inside the {}
 $(document).ready(function() {
-
-  var responses = ["Results Unclear", "Signs Point To Yes", "Ask Again Later", "It Is Certain", "Outlook Good", "Most Likely", "Don't Count On It", "My Sources Say No"]
 
   $('#reset').hide();
 
   function buttonClicked(){
+    $('#ball').attr("id","bottom");
     $('#submit').hide();
     $('#reset').show();
     var randomAnswer = Math.floor(Math.random() * responses.length);

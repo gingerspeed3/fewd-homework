@@ -1,19 +1,31 @@
 body {
-  background-color: white;
   text-align: center;
 }
 
-/* Your CSS goes here */
-
 #ball {
-  background-color: purple;
-  width: 800px;
-  height: 800px;
-  border: 1px;
-  border-radius: 400px;
-  margin: 0 auto;
+  background-image: url(../images/magic8ball_top.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: auto;
+  height: 500px;
+  color: purple;
 }
 
-h1 {
-  padding: 350px 0px 0px 0px;
+#bottom {
+  background-image: url(../images/magic8ball_bottom.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: auto;
+  height: 500px;
+  color: purple;
+}
+
+#header {
+  padding-top: 360px;
+}
+
+#push {
+  padding-top: 75px;
 }
