@@ -3,21 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <script src="http://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
   </head>
   <body>
     <h1>Let's Play!</h1>
     <h2>Choose Your Weapon</h2>
     <div id="userweapon">
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <img src="" alt="" />
+      <div id="rock" class="weapon"><img src="./images/hulk-fist-sm.jpg"/></div>
+      <div id="paper" class="weapon"><img src="./images/paper-ball-lrg.jpg"/></div>
+      <div id="scissors" class="weapon"><img src="./images/scissors-lrg.jpg"/></div>
     </div>
     <div id="cpuweapon">
       <h2>Your Opponent Has Chosen...</h2>
-      <span id="selectedcpuweapon"></span>
+      <div id="selectedcpuweapon" class="weapon"><img src="./images/random.jpg"/></div>
+      <div id="cpurock" class="weapon"><img src="./images/hulk-fist-sm.jpg"/></div>
+      <div id="cpupaper" class="weapon"><img src="./images/paper-ball-lrg.jpg"/></div>
+      <div id="cpuscissors" class="weapon"><img src="./images/scissors-lrg.jpg"/></div>
     </div>
   </body>
 </html>

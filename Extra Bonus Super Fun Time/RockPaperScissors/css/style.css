@@ -1,0 +1,9 @@
+.weapon {
+  width: auto;
+  float: left;
+  display: inline-block;
+}
+
+#cpuweapon {
+  clear: both;
+}
