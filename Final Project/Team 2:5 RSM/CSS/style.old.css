@@ -1,0 +1,56 @@
+body {
+  font-family: 'Special Elite', cursive;
+}
+
+header {
+  background-color: #E61614;
+}
+
+nav {
+  color: #FFFFFF;
+  padding: 20px 0px 0px 0px;
+}
+h1 {
+  margin: 0px 0px 0px 80px;
+  display: inline-block;
+}
+
+.nav ul li {
+  text-decoration: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.nav ul li a {
+  color: #FFFFFF;
+}
+
+footer {
+  background-color: #1A1E37;
+  color: #FFFFFF;
+  clear: both;
+}
+
+.main {
+  margin: 100px 0px 0px 0px;
+}
+
+.usmc {
+  margin: 0 auto;
+  max-width: 50px;
+  float: left;
+}
+
+.mission {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.mission p {
+  max-width: 500px;
+  float: left;
+
+}

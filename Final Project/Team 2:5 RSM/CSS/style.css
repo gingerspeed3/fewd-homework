@@ -1,0 +1,51 @@
+body {
+  font-family: 'Special Elite', cursive;
+  margin: 0 auto;
+  max-width: 800px;
+  background-image: url(../images/usmc-sm.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #E61614;
+  margin-top: 10px;
+  height: 80px
+}
+
+h1 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+div {
+  color: white;
+  margin-top: 40px;
+}
+
+.whereto {
+  float: right;
+  max-width: 330px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.container {
+  clear: both;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .4);
+}

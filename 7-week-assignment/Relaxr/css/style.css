@@ -156,7 +156,7 @@ blockquote {
   font-weight: 300;
   font-style: italic;
   text-align: center;
-  max-width: 580px;
+  max-width: 50%;
   margin: 0 auto;
 }
 blockquote span {
@@ -289,5 +289,5 @@ footer p {
 }
 
 @media screen and (max-width: 768) {
-
+  
 }
