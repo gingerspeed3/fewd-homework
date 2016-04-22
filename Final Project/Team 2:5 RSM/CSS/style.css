@@ -1,18 +1,13 @@
 body {
   font-family: 'Special Elite', cursive;
   margin: 0 auto;
-  max-width: 800px;
-  background-image: url(../images/usmc-sm.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
-  background-attachment: fixed;
+  max-width: 80%;
 }
 
 header {
   background-color: #E61614;
-  margin-top: 10px;
-  height: 80px
+  height: 80px;
+  position: static;
 }
 
 h1 {
@@ -27,7 +22,7 @@ li {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
   padding: 5px;
 }
@@ -35,6 +30,31 @@ a {
 div {
   color: white;
   margin-top: 40px;
+}
+
+footer {
+  background-color: #E61614;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30px;
+}
+
+.bg-pic {
+  background-image: url(../images/usmc-sm.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-attachment: fixed;
+  z-index: -2;
+  margin: 0;
+  width: 100%;
+}
+
+.bg-shade {
+  background-color: rgba(22, 26, 51, .6);
+  z-index: -1;
+  margin: 0;
 }
 
 .whereto {
@@ -47,5 +67,6 @@ div {
 .container {
   clear: both;
   text-align: center;
-  background-color: rgba(0, 0, 0, .4);
+  max-width: 80%;
+  margin: 0 auto;
 }
