@@ -34,8 +34,12 @@ li {
 
 a {
   text-decoration: underline;
-  color: black;
+  color: white;
   padding: 5px;
+}
+
+a:hover {
+
 }
 
 div {
@@ -50,11 +54,13 @@ footer {
   margin: 0 auto;
   text-align: center;
   line-height: 30px;
+  margin-top: 30px;
 }
 
 p {
   font-size: 22px;
 }
+
 
 .bg-pic {
   background-image: url(../images/usmc-sm.jpg);
@@ -68,7 +74,7 @@ p {
 }
 
 .bg-shade {
-  background-color: rgba(22, 26, 51, .6);
+  background-color: rgba(22, 26, 51, .8);
   z-index: -1;
   margin: 0;
 }
@@ -78,6 +84,7 @@ p {
   max-width: 330px;
   text-align: center;
   line-height: 30px;
+  color: white;
 }
 
 .container {
@@ -89,4 +96,12 @@ p {
 
 .oorah {
   color: white;
+}
+
+.mission {
+  line-height: 30px;
+}
+
+.contact {
+  font-size: 32px;
 }
