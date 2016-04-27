@@ -1,7 +1,6 @@
 body {
   font-family: 'Special Elite', cursive;
   margin: 0 auto;
-  max-width: 80%;
 }
 
 header {
@@ -80,8 +79,8 @@ form input {
   background-size: auto;
   background-attachment: fixed;
   z-index: -2;
-  margin: 0;
-  width: 100%;
+  margin: auto;
+  width: 80%;
 }
 
 .bg-shade {
@@ -115,6 +114,12 @@ form input {
 
 .contact {
   font-size: 32px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bg-pic {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
